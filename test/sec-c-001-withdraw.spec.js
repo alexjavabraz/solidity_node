@@ -29,7 +29,7 @@ describe("Security Audit C-001 Withdrawal", () => {
     withdrawFailTx = cars
       .connect(accounts[1]) // is not contract owner
       .functions.contractOwnerWithdraw();
-    await expect(withdrawFailTx).to.be.revertedWith("only contract owner");
+    await expect(withdrawFailTx).to.be.revertedWith("Only owner can call this function.");
   });
 
   it("should have same contract balance after failed attempt to withdraw", async () => {
