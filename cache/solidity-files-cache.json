@@ -2,7 +2,7 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/abraz/projetos/solidity_node_rsk/contracts/Cars.sol": {
-      "lastModificationDate": 1673303619029,
+      "lastModificationDate": 1673305435048,
       "contentHash": "861a801b641edbd53a10a9cb1f9dc67d",
       "sourceName": "contracts/Cars.sol",
       "solcConfig": {
@@ -25,6 +25,9 @@
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": false
           }
         }
       },
@@ -62,6 +65,9 @@
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": false
           }
         }
       },
@@ -98,6 +104,9 @@
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": false
           }
         }
       },
@@ -107,6 +116,44 @@
       ],
       "artifacts": [
         "Warnings"
+      ]
+    },
+    "/Users/abraz/projetos/solidity_node_rsk/contracts/2wpTest.sol": {
+      "lastModificationDate": 1673304761479,
+      "contentHash": "6fedbe5421f7dd61704cc661e7b05245",
+      "sourceName": "contracts/2wpTest.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "TwoWayPeg"
       ]
     }
   }

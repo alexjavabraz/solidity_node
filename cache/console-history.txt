@@ -1,0 +1,6 @@
+config.defaultNetwork
+ethers
+config
+exit()
+quit
+exit
