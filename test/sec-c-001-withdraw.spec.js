@@ -16,6 +16,9 @@ describe("Security Audit C-001 Withdrawal", () => {
     superHonk = await deployContract("SuperHonk");
     cars = await deployContract("Cars", superHonk.address);
 
+    console.log(`Accounts created ${accounts}`);
+    console.log(`Smart Contract deployed at ${superHonk.address} `);
+
     await cars.connect(accounts[1]).functions.addCar(
       "0xff00ff", // colour: purple
       4, // doors: 4
