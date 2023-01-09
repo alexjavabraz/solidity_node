@@ -30,12 +30,17 @@ if (
 }
 console.log(`Minimum gas price Testnet: ${minimumGasPriceTestnet}`);
 const { API_URL, PRIVATE_KEY } = process.env;
+
+if(!PRIVATE_KEY) {
+  PRIVATE_KEY = '4cc8dd2a1774092e51f448fc5f2870ac500475b4fa5e52e2401c733f4d468009';
+}
+
 console.log(`Private Key found ${PRIVATE_KEY} `);
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: "0.8.9",
-  defaultNetwork: "rsktestnet",
+  defaultNetwork: "hardhat",
   paths: {
     sources: "./contracts",
     tests: "./test",
