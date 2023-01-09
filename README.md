@@ -81,6 +81,10 @@ npm run compile
 ```
 npx hardhat run scripts/deploy.js --network ...
 ```
+example...
+```
+npx hardhat run scripts/deploy.js -- n network rsktestnet
+```
 
 ## Slither Mythril
 ```
