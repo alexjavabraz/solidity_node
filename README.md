@@ -81,3 +81,14 @@ npm run compile
 ```
 npx hardhat run scripts/deploy.js --network ...
 ```
+
+## Slither Mythril
+```
+pip3 install --upgrade pip
+pip3 install slither-analyzer
+slither --version
+pip3 install mythril
+myth version
+pip3 install slither-analyzer
+npm run sc-analysis-static
+```

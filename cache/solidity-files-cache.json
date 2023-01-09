@@ -1,0 +1,113 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/abraz/projetos/solidity_node/contracts/Cars.sol": {
+      "lastModificationDate": 1661208781580,
+      "contentHash": "7114a618e610b150ed2cf4546c2c117d",
+      "sourceName": "contracts/Cars.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ISuperHonk.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Cars"
+      ]
+    },
+    "/Users/abraz/projetos/solidity_node/contracts/ISuperHonk.sol": {
+      "lastModificationDate": 1661208787407,
+      "contentHash": "113bd4e16cedfb60ee84da5169d6743f",
+      "sourceName": "contracts/ISuperHonk.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "ISuperHonk",
+        "SuperHonk"
+      ]
+    },
+    "/Users/abraz/projetos/solidity_node/contracts/Warnings.sol": {
+      "lastModificationDate": 1661208791697,
+      "contentHash": "87b338b12d9573b32c8fd1b8c4311500",
+      "sourceName": "contracts/Warnings.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Warnings"
+      ]
+    }
+  }
+}

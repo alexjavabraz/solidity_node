@@ -1,7 +1,7 @@
-const { assert } = require('chai');
+const { assert } = require("chai");
 
-describe('smoke test', () => {
-    it('should test assert on constants', async () => {
-        assert.equal(1, 1);
-    });
+describe("smoke test", () => {
+  it("should test assert on constants", async () => {
+    assert.equal(1, 1);
+  });
 });

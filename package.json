@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "hardhat test",
-    "compile": "hardhat compile"
+    "compile": "hardhat compile",
+    "coverage": "hardhat coverage",
+    "sc-analysis-static": "slither .",
+    "sc-analysis-dynamic": "myth analyze contracts/*.sol",
+    "lint": "npx prettier --list-different 'contracts/**/*.sol' 'test/**/*.js'",
+    "lint-fix": "npx prettier --write 'contracts/**/*.sol' 'test/**/*.js'"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +27,8 @@
     "ethers": "^5.6.8",
     "hardhat": "^2.9.7",
     "mocha": "10.0.0",
-    "solidity-coverage": "^0.7.21"
+    "solidity-coverage": "^0.7.21",
+    "prettier": "2.6.2",
+    "prettier-plugin-solidity": "1.0.0-dev.22"
   }
 }
