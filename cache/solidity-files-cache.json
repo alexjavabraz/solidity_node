@@ -109,10 +109,10 @@
         "Warnings"
       ]
     },
-    "/Users/abraz/projetos/solidity_node_rsk/contracts/2wpTest.sol": {
-      "lastModificationDate": 1673304761479,
-      "contentHash": "6fedbe5421f7dd61704cc661e7b05245",
-      "sourceName": "contracts/2wpTest.sol",
+    "/Users/abraz/projetos/solidity_node_rsk/contracts/TwoWayPeg.sol": {
+      "lastModificationDate": 1673374944241,
+      "contentHash": "e763ea7035d75fbc1be666826909db28",
+      "sourceName": "contracts/TwoWayPeg.sol",
       "solcConfig": {
         "version": "0.8.9",
         "settings": {

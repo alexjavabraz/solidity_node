@@ -56,7 +56,7 @@ module.exports = {
       gasPrice: Math.floor(minimumGasPriceTestnet * TESTNET_GAS_MULT),
       gasMultiplier: TESTNET_GAS_MULT,
       accounts: [`0x${PK}`],
-      timeout: 2000000,
+      timeout: 20000000,
     },
     hardhat: {},
   },

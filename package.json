@@ -11,7 +11,7 @@
     "sc-analysis-dynamic": "myth analyze contracts/*.sol",
     "lint": "npx prettier --list-different 'contracts/**/*.sol' 'test/**/*.js'",
     "lint-fix": "npx prettier --write 'contracts/**/*.sol' 'test/**/*.js'",
-    "accounts": "npx hardhat run scripts/accounts.js"
+    "accounts": "npx hardhat run scripts/accounts.js --network rsktestnet"
   },
   "keywords": [],
   "author": "Alex Simas Braz",
