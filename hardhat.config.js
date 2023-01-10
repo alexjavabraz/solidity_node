@@ -30,9 +30,10 @@ if (
 }
 console.log(`Minimum gas price Testnet: ${minimumGasPriceTestnet}`);
 const { API_URL, PRIVATE_KEY } = process.env;
+let PK = PRIVATE_KEY;
 
-if(!PRIVATE_KEY) {
-  PRIVATE_KEY = '4cc8dd2a1774092e51f448fc5f2870ac500475b4fa5e52e2401c733f4d468009';
+if(!PK) {
+  PK = '4cc8dd2a1774092e51f448fc5f2870ac500475b4fa5e52e2401c733f4d468009';
 }
 
 console.log(`Private Key found ${PRIVATE_KEY} `);
@@ -54,7 +55,7 @@ module.exports = {
       url: 'https://public-node.testnet.rsk.co', 
       gasPrice: Math.floor(minimumGasPriceTestnet * TESTNET_GAS_MULT),
       gasMultiplier: TESTNET_GAS_MULT,
-      accounts: [`0x${PRIVATE_KEY}`],
+      accounts: [`0x${PK}`],
       timeout: 200000,
     },
     hardhat: {},
