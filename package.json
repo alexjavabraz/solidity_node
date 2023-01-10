@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "hardhat test",
+    "test": "hardhat test --network rsktestnet",
     "compile": "hardhat compile",
     "coverage": "npx hardhat coverage --network hardhat",
     "sc-analysis-static": "slither .",
     "sc-analysis-dynamic": "myth analyze contracts/*.sol",
     "lint": "npx prettier --list-different 'contracts/**/*.sol' 'test/**/*.js'",
-    "lint-fix": "npx prettier --write 'contracts/**/*.sol' 'test/**/*.js'"
+    "lint-fix": "npx prettier --write 'contracts/**/*.sol' 'test/**/*.js'",
+    "accounts": "npx hardhat run scripts/accounts.js"
   },
   "keywords": [],
   "author": "Alex Simas Braz",
